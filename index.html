@@ -6,6 +6,9 @@
     <title>Document</title>
   </head>
   <body>
+    <h1>Hello Git</h1>
+    <h3>Mở Git Ctrl + ~</h3>
+    
     <label for="">Câu lạc bộ : </label>
     <input id="club" type="text" onchange="handleChangeClub(this)" />
 <a href="./"></a>
@@ -66,10 +69,10 @@
         let date = now.getDate();
         let month = now.getMonth() + 1;
         let year = now.getFullYear();
-        
+
         let newYear = new Date().setFullYear(2020);
 
-        console.log('newYear', newYear)
+        console.log("newYear", newYear);
         document.querySelector(
           "#date"
         ).innerHTML = `<h3 style="color:yellow"> Hôm nay là ngày </h3> ${date}/${month}/${year}`;
